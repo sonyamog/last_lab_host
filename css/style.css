@@ -35,10 +35,13 @@ body {
     background-size: 85%;
     background-position: 100px 40px;
     z-index: 10;
+    align-items: flex-end;
 }
 header {
     display: flex;
     z-index: 10;
+    width: 100%;
+    justify-content: flex-end;
 }
 .button {
     background: white;
